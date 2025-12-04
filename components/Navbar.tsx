@@ -8,7 +8,7 @@ export default function Navbar() {
 
   const links = [
     { name: "首页", path: "/" },
-    { name: "作品集", path: "/works" }, // 这里对应你之前的 Bento Grid
+    { name: "作品集", path: "/work" }, // 这里对应你之前的 Bento Grid
     { name: "简历", path: "/resume" },
   ];
 
