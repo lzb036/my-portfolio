@@ -1,7 +1,2 @@
 @import "tailwindcss";
-
-/* 强制全黑背景，防止默认的白色闪烁 */
-html, body {
-  background-color: #000;
-  color: #fff;
-}
+@custom-variant dark (&:where(.dark, .dark *));
